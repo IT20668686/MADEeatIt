@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "499603452042",
+    "project_id": "madeatitapp",
+    "storage_bucket": "madeatitapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499603452042:android:e3ff60537c53d30f6cfd73",
+        "android_client_info": {
+          "package_name": "com.grrtv.madeatitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499603452042-av5l43j29p1d8uj3e17hu0fsuqs2nir3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grrtv.madeatitapp",
+            "certificate_hash": "aaea77f6f1dcd1c6b135972cc075c4be73e1139d"
+          }
+        },
+        {
+          "client_id": "499603452042-9dj1m0koa0c01pk5rcbg0vibj0b5phkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArMlZ6gBM-V1IWF47iat3xR1QsyDlTHUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499603452042-9dj1m0koa0c01pk5rcbg0vibj0b5phkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
