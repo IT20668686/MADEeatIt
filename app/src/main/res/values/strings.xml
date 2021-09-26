@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">MADEatItApp</string>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Eat It</string>
+    <string name="nav_header_subtitle">We will find you and feed you</string>
+    <string name="manage_discount_header">Manage Discount</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_discount_header">Update Discount</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Category</string>
+    <string name="menu_slideshow">Food</string>
+    <string name="menu_discount">Discount</string>
+    <string name="discount_name">Discount Name</string>
+    <string name="discount_amount">Discount Amount</string>
+    <string name="discount_type">Discount Type</string>
+    <string name="discount_valid_date">Discount Valid Date</string>
+    <string name="g">We will find you and feed you</string>
+    <string name="s">Manage Discount</string>
+    <string name="c">Settings</string>
+    <string name="a">Create Discount</string>
+    <string name="me">Home</string>
+    <string name="ry">Category</string>
+    <string name="ow">Food</string>
+    <string name="nt">Discount</string>
 </resources>

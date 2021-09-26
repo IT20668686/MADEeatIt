@@ -1,66 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context=".MainActivity">
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-    <LinearLayout
-        android:layout_width="647dp"
-        android:layout_height="503dp"
-        android:layout_alignParentStart="true"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="545dp"
-            android:src="@drawable/logo" />
-
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
+    <include
+        android:id="@+id/app_bar_main"
+        layout="@layout/app_bar_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="58dp"
-        android:orientation="horizontal"
-        android:weightSum="2">
+        android:layout_height="match_parent" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnSignUp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:layout_weight="1"
-            android:background="#03777A"
-            android:shadowColor="@color/black"
-            android:shadowDx="@android:integer/config_longAnimTime"
-            android:text="Sign Up"
-
-            android:textColor="@android:color/white" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnSignIn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:layout_weight="1"
-            android:background="#4CAF50"
-            android:shadowColor="@color/black"
-            android:shadowDx="@android:integer/config_longAnimTime"
-            android:text="Sign In"
-            android:textColor="@android:color/white" />
-
-    </LinearLayout>
-
-
-</RelativeLayout>
-
-
-
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+</androidx.drawerlayout.widget.DrawerLayout>
